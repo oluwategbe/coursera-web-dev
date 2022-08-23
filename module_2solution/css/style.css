@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0 10px;
+}
+.section{
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+    float: left;
+    background: grey;
+    position: relative;
+    border: 1px solid black;
+}
+
+.section-title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#title1{
+    background: blue;
+}
+#title2{
+    background-color: deeppink;
+}
+#title3{
+    background-color: azure;
+}
+
+p{
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .section{
+        width: 48%;
+    }
+    #se{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+    .section{
+        width: 100%;
+    }
+}
