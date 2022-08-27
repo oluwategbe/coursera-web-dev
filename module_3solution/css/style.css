@@ -1,0 +1,17 @@
+
+
+.nav-link{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+@media (min-width: 992px){
+    .nav-link{
+        display: none !important;
+    }
+}
+
+.menu-section{
+    height: 700px;
+    background-color: grey;
+    color: white;
+}
